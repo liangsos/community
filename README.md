@@ -9,7 +9,7 @@
 
 [GitHub deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys)
 
-[GitHub OAuth](https://developer.github.com/apps/building-github-apps/creating-a-github-app/)
+[GitHub OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
 
 
 ## 工具

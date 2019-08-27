@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2019/8/23 - 17:59
  */
 @Controller
-public class HelloController {
+public class IndexController {
 
     @GetMapping("/")
     public String hello(){
