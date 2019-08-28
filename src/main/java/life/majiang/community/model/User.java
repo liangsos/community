@@ -6,7 +6,7 @@ package life.majiang.community.model;
  */
 public class User {
     /**
-     *
+     *id
      */
     private Integer id;
 
@@ -26,14 +26,27 @@ public class User {
     private String token;
 
     /**
-     *
+     *创建时间
      */
     private Long gmtCreate;
 
     /**
-     *
+     *修改时间
      */
     private Long gmtModified;
+    
+    /**
+     *头像地址
+     */
+    private String avatarUrl;
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public void setAvatarUrl(String avatarUrl) {
+        this.avatarUrl = avatarUrl;
+    }
 
     public Integer getId() {
         return id;
