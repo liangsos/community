@@ -1,13 +1,14 @@
-package life.majiang.community.model;
+package life.majiang.community.dto;
 
+import life.majiang.community.model.User;
 import lombok.Data;
 
 /**
  * @author Chen Hualiang
- * @date 2019/8/28 - 16:16
+ * @date 2019/8/29 - 10:41
  */
 @Data
-public class Question {
+public class QuestionDTO {
     private Integer id;
     private String title;
     private String description;
@@ -18,5 +19,5 @@ public class Question {
     private Integer viewCount;
     private Integer commentCount;
     private Integer likeCount;
-
+    private User user;
 }

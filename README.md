@@ -11,6 +11,8 @@
 
 [GitHub OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/)
 
+[lombom](https://www.projectlombok.org/)
+
 
 ## 工具
 [Git](https://git-scm.com/download)
