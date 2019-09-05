@@ -21,15 +21,11 @@ public class PaginationDTO {
     private Integer totalPage;     //最大页码
 
 
-    public void setPagination(Integer totalCount, Integer page, Integer size) {
-        //获取最大页码
-        if (totalCount % size == 0) {
-            totalPage = totalCount / size;
-        } else {
-            totalPage = totalCount / size + 1;
-        }
+    public void setPagination(Integer totalPage, Integer page) {
+        this.totalPage = page;
         //获取页码列表 最多展示7个页码，在本页向前展示3个页码向后展示3个页码
         this.page = page;
+
         pages.add(page);
         for (int i = 1; i <= 3; i++) {
             if (page - i > 0) {
