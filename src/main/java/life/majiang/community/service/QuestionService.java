@@ -70,7 +70,6 @@ public class QuestionService {
         }
         paginationDTO.setQuestions(questionDTOList);
 
-
         return paginationDTO;
     }
 
