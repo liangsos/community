@@ -8,7 +8,16 @@ import lombok.Data;
  */
 @Data
 public class CommentDTO {
+    /*
+     * 所回复的问题的ID
+     */
     private Long parentId;
+    /*
+     *回复的内容
+     */
     private String content;
+    /*
+     *回复的类型 1表示回复问题，2表示回复评论
+     */
     private Long type;
 }
