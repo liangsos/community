@@ -61,6 +61,14 @@ body {
     margin-bottom: 10px;
 }
 
+.sub-comments{
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
 .comment-sp {
     margin-top: 0px;
 }
@@ -74,6 +82,10 @@ body {
     margin-right: 6px;
     font-size: 15px;
     cursor: pointer;
+}
+
+.menu .active {
+    color: #499ef3;
 }
 
 .menu .icon:hover {
