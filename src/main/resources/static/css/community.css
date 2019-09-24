@@ -31,6 +31,16 @@ body {
     margin-top: 15px;
 }
 
+.question-title {
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+.question-description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .community-menu {
     font-size: 13px;
     color: #999;
@@ -74,4 +84,8 @@ body {
     padding-bottom: 5px;
     margin-bottom: 15px;
     border-bottom: 1px solid #eee;
+}
+
+.comment-margin-top {
+    margin-top: 30px;
 }
