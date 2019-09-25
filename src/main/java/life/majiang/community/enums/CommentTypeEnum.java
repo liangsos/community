@@ -5,12 +5,12 @@ package life.majiang.community.enums;
  * @date 2019/9/16 - 14:54
  */
 public enum CommentTypeEnum {
-    QUESTION(1L),
-    COMMENT(2L);
+    QUESTION(1),
+    COMMENT(2);
 
-    private Long type;
+    private Integer type;
 
-    public static boolean isExist(Long type) {
+    public static boolean isExist(Integer type) {
         for (CommentTypeEnum commentTypeEnum : CommentTypeEnum.values()) {
             if (commentTypeEnum.getType() == type){
                 return true;
@@ -19,11 +19,11 @@ public enum CommentTypeEnum {
         return false;
     }
 
-    public Long getType(){
+    public Integer getType(){
         return type;
     }
 
-    CommentTypeEnum(Long type) {
+    CommentTypeEnum(Integer type) {
         this.type = type;
     }
 }

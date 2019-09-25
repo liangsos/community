@@ -19,5 +19,5 @@ public class CommentCreateDTO {
     /*
      *回复的类型 1表示回复问题，2表示回复评论
      */
-    private Long type;
+    private Integer type;
 }

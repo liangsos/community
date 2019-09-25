@@ -11,7 +11,7 @@ import lombok.Data;
 public class CommentDTO {
     private Long id;
     private Long parentId;
-    private Long type;
+    private Integer type;
     private Long commentator;
     private Long gmtCreate;
     private Long gmtModified;
