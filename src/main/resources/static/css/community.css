@@ -64,13 +64,14 @@ body {
 }
 
 .publish-tag-tab .label-info{
-    margin-right: 10px;
+    white-space: normal;
+    margin: 5px 5px;
+    display: inline-block;
 }
 
 .community-menu {
     font-size: 13px;
     color: #999;
-    display: block;
     margin-bottom: 15px
 }
 
